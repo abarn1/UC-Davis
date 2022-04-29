@@ -16,7 +16,7 @@ import pandas as pd
 # nltk.download()
 platforms_url = "https://api.rawg.io/api/platforms"
 games_url = "https://api.rawg.io/api/games"
-api_key = "?key=0c02bb604d3c4b51aa12d2f600558a36"
+api_key = ""
 popular_query = "&platforms=4&dates=2020-01-01,2021-12-31&ordering=-added&page_size=40&page="
 metacritic_query = "&platforms=4&ordering=-metacritic&dates=2020-01-01,2021-12-31&page_size=40&page="
 
